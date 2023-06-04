@@ -1,0 +1,12 @@
+#+title: Readme
+
+* Overview
+This repository contains the Gerbers and KiCad files for a 20- 30.5mm flight controller adapter PCB. This is useful in situations where your frame mounting holes have a different size to your flight controller or ESC.
+
+[[file:images/fc_adapter_front.png]]
+
+* Design
+Though mechanically not required all of the holes are plated and electrically connected, both for aesthetics and in the case that grounding is required. For this there are some additional through holes should a grounding wire need to be connected.
+
+* Gerbers
+For the output (Gerber) files, check the releases tab. this contains all of the Gerber files.
