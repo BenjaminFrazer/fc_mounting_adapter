@@ -1,9 +1,17 @@
 #+title: Readme
 
 * Overview
-This repository contains the Gerbers and KiCad files for a 20- 30.5mm flight controller adapter PCB. This is useful in situations where your frame mounting holes have a different size to your flight controller or ESC.
+This repository contains the Gerbers and KiCad files for adapter PCBs to convert between the following standard flight controller mounting holes:
+- 20mm M3 - 30.5 M3
+- 25.5mm M2 - 30.5 M3
 
+This is useful in situations where your frame mounting holes have a different size to your flight controller or ESC.
+
+20 - 30.5 adapter
 [[file:images/fc_adapter_front.png]]
+
+25.5 - 30.5 adapter
+[[file:images/fc_adapter_front_25.5-30.5.png]]
 
 * Design
 Though mechanically not required all of the holes are plated and electrically connected, both for aesthetics and in the case that grounding is required. For this there are some additional through holes should a grounding wire need to be connected.
